@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/function"
+    android:background="#3F51B5">
+
+    <TextView
+        android:id="@+id/tv_text_size"
+        style="@style/functionTextStyle"
+        android:text="字体大小"/>
+
+    <TextView
+        android:id="@+id/tv_text_color"
+        style="@style/functionTextStyle"
+        android:text="字体颜色"/>
+
+    <TextView
+        android:id="@+id/tv_view_spacing"
+        style="@style/functionTextStyle"
+        android:text="View间距"/>
+
+</LinearLayout>
